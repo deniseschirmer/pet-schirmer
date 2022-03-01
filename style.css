@@ -1,0 +1,104 @@
+:root {
+    --cor0: #c5ebd6;
+    --cor1: #83e1ad;
+    --cor2: #3ddc84;
+    --cor3: #C4C4C4;
+    --cor4: #9F8B74D9;
+    --cor5: #B07318;
+}
+
+
+.img-fundo {
+    font-family: Arial, Helvetica, sans-serif;
+    /* position: absolute; */
+    /* width: 1021px; */
+    /* height: 1366px; */
+    background-image: url(images/background01.svg);
+    background-repeat: repeat-x repeat-y;
+}
+
+.menu {
+    display: inline-block;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+ 
+
+.foto-p {
+    background-image: url(images/foto-principal.png);
+    background-size: cover;
+    width:100%;
+    height: 800px;
+    position: relative;
+    /* background: ; */
+    border: 1px solid red;
+}
+
+.lista-menu {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    border: 1px solid blue;
+    list-style: none;
+    /* justify-content: center; */
+}
+
+.lista {
+    display: inline-block;
+    vertical-align: 16px;
+}
+
+.lista a {
+    margin: 0 25px 0 25px;
+    padding: 10px;
+    font-weight: bold;
+    color: black;
+}
+
+.imagem-logo {
+    display: inline-block;
+    margin: 0 30px 0 30px;
+    padding: 0;
+}
+
+
+.lista-menu a {
+/* display: inline-block; */
+/* justify-content: center; */
+/* padding: 10px; */
+margin: auto;
+text-decoration: none;
+text-transform: uppercase;
+}
+
+.linha {
+    border: 1px solid blue;    
+}
+
+.btn {
+    -webkit-border-radius: 10;
+    -moz-border-radius: 10;
+    border-radius: 10px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    font-size: 15px;
+    background:  #206128;;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+
+  .cadastro {
+      background-color: var(--cor4);
+      text-align: center;
+      
+
+  }
+
+  .footer {
+    background-color: var(--cor5);
+    color: white;
+    text-align: center;
+    font-size: 0.8em;
+    padding: 5px;
+  }
